@@ -1,0 +1,10 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: C:/Users/Rajukumar/Downloads/Compressed/Plant Disease  Detection.v7i.yolov8  # dataset root dir
+train: train/images  # train images (relative to 'path') for images
+val: valid/images    # val images (relative to 'path') for images
+test: test/images    # test images (relative to 'path') for images
+
+
+# Classes
+nc: 1
+names: ['Leaf Disease: Use Fertiliser']

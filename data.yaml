@@ -1,0 +1,8 @@
+path: E:/SafeVision_Datasets/plant_sample.v1i.yolov8
+
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 20
+names: ['Alternaria leafspot', 'Aphid', 'Helicoverpa Armigera', 'Jassid', 'Red Bug', 'bacterial blight', 'black root rot', 'blue disease', 'boll rot', 'cercospora leaf spot', 'crown gall', 'curl virus', 'fusarium wilt', 'grey mildew', 'mealy bug', 'pink bollworm', 'thrips', 'verticilium wilt', 'whiteflies', 'worms']
